@@ -4,6 +4,57 @@ body {
   font-size: 100%;
   line-height: 1.6;
   font-family: 'Roboto', sans-serif;
+  background: #f4f4f4;
+}
+
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background: #AC9E8D;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #A24315 3px solid;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+header li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #logo {
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 30px;
+}
+
+header .light, header .current a {
+  color: #A24315;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #222;
 }
 
 #wrapper {
