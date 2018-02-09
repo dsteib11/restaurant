@@ -9,8 +9,8 @@
 
 /* Global */
 .container {
-  width: 80%;
-  margin: auto;
+  max-width: 90%;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -65,12 +65,43 @@ header a:hover {
   color: #222;
 }
 
-.profile-section, .container{
-  max-width: 100%;
+h2 {
   text-align: center;
 }
 
+#showcase {
+  min-height: 500px;
+  background:url('../img/plate.jpg') no-repeat 0 -200px;
+  background-size: cover;
+  padding: 70px 0;
+}
 
+  #showcase, h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  font-size: 60px;
+  padding-top: 93px;
+}
+
+#showcase, p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.profile-section {
+  max-width: 50%;
+  margin: 10px 0;
+  float: right;
+}
+
+.img1 {
+  margin: 25px 0;
+}
+
+
+
+/* Fix images inside of Animation */
 #wrapper {
   position: relative;
   width: 100%;
@@ -109,7 +140,7 @@ header a:hover {
 }
 
 .layer h1 {
-  font-size: 3em;
+  font-size: 2rem;
 }
 
 .bottom {
@@ -123,6 +154,7 @@ header a:hover {
 }
 
 .bottom h1 {
+  font-size: 2rem;
   color: #AC9E8D;
 }
 
